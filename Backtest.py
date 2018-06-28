@@ -111,7 +111,7 @@ n=0
 
 for date in trade_days:
     date=date.strftime('%Y-%m-%d')
-    position =0
+    position =0 #持仓的现金
     # 判断是否调仓
     if n % freq == 0 :
         today_capital=0
